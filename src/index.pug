@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title DoC
+    link(rel="stylesheet" href="css/style.css")
+
+  body
+    header.header
+      .container
+        p.p Введите текст, в инпут введите слово которое хотите изменить <br> и на что вы хотетие его изменить
+        textarea.tArea#tA(placeholder="Введите весь текст") Мой текст
+        p Введите елемент который хотите заменить
+        input.inp(placeholder="Введите елемент который хотите заменить" value="Мой Твой")
+        button.btn click
+        p Для вырезки части текста введите слово <br> с которого начать и до которого вырезать
+        input.inpS
+        button.btnS slice
+        .out
+    main
+
+    footer.footer
+    script(src="js/main.js")
+
